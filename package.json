@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@cleiton_tav",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "graylog2": "^0.2.1"
   }
