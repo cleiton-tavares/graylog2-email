@@ -1,6 +1,6 @@
 {
   "name": "graylog2-email",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a graylog2 module fork to send email easily",
   "main": "index.js",
   "scripts": {

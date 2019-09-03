@@ -9,7 +9,7 @@ class Logger extends graylog2.graylog{
       bufferSize: 1350
     });
     this.topic = topic;
-    if(!topic || !host || !hostname || sns) throw new Error('Missing required parameter!');
+    if(!topic || !host || !hostname || !sns) throw new Error('Missing required parameter!');
   }
   email(message, data){
     return this.sns.publish({ Message: message, TopicArn: this.topic }, () => this.log(message, data));
