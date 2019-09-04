@@ -1,6 +1,6 @@
 {
   "name": "graylog2-email",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "a graylog2 module fork to send email easily",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,13 @@
   "license": "MIT",
   "dependencies": {
     "graylog2": "^0.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleiton-tavares/graylog2-email.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cleiton-tavares/graylog2-email/issues"
+  },
+  "homepage": "https://github.com/cleiton-tavares/graylog2-email#readme"
 }
